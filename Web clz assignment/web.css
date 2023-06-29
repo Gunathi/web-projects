@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(images/background.jpg); */
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(19, 27, 76, 0.92),rgb(19, 27, 76, 0.92)),url(images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.logo img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.menu-bar {
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+.menu-bar ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 1.5rem;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.menu-bar ul li a:hover {
+    color: black;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.login-btn {
+    margin-right: 30px;
+}
+
+.login-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 15px 40px;
+    border-radius: 5px;
+    background-color: green;
+    text-align: center;
+}
+
+.description {
+    border-left: 5px solid green;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    padding-left: 30px;
+}
+
+.description h1 {
+    color: aliceblue;
+    font-size: 60px;
+    padding-bottom: 10px;
+}
+
+.description p {
+    color: aliceblue;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.meal img{
+    width: 400px;
+    position: absolute;
+    top: 250px;
+    left: 60%;
+    border-radius: 50%;
+}
+
+.mealimg {
+    animation: imageanimate 20s linear  infinite;
+}
+
+@keyframes imageanimate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
