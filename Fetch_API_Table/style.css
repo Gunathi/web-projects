@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    margin: 20px;
+    width: 100px;
+}
